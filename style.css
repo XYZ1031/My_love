@@ -20,7 +20,7 @@ h1 {
   text-align: center;
   width: 100%;
   top: 18vh;
-  font-size: 93px;
+  font-size: 79px;
   background: -webkit-linear-gradient(0deg, #ceadfc 0%, #a3bbfb 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -42,7 +42,7 @@ h2 {
   position: fixed;
   text-align: center;
   width: 100%;
-  top: 15vh;
+  top: 18vh;
   font-size: 50px;
   background: -webkit-linear-gradient(90deg, #e9e6ff 0%, white 100%);
   -webkit-background-clip: text;
@@ -673,7 +673,7 @@ bokeh:nth-child(100) {
 }
 .cake {
   position: relative;
-  top: 47vh;
+  top: 58vh;
   margin: auto;
   width: 200px;
   height: 60px;
@@ -689,7 +689,7 @@ bokeh:nth-child(100) {
   width: 300px;
   bottom: -95px;
   left: 50%;
-  top: 65vh;
+  top: 75vh;
   margin-left: -150px;
   border-radius: 100%;
   background: radial-gradient(ellipse closest-side at center, #08c7fe 0%, #04d7f2 71%, #02ffd0 100%);
@@ -701,7 +701,7 @@ bokeh:nth-child(100) {
   position: relative;
   height: 50px;
   width: 12px;
-  top: 50vh;
+  top: 62vh;
   margin: auto;
   background: linear-gradient(0deg, #b7f4a7 0%, white 100%);
   border-radius: 4px;
