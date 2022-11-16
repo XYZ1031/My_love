@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Concert+One|Pacifico");
+html {
+  transition: all 1.5s ease-in;
+  
+}
+html.white{
+  background-color: black;
+}
 .mobile {
   display: none;
 }
@@ -6,9 +13,8 @@
 h1, h2, span {
   display: block;
 }
-
 body {
-  background: linear-gradient(to right, #e2b8f7, #d4bafa, #c7bcfb, #b9befb, #acbff9);
+  
   cursor: crosshair;
   perspective: 1000px;
   transform-style: preserve-3d;
@@ -20,7 +26,7 @@ h1 {
   text-align: center;
   width: 100%;
   top: 18vh;
-  font-size: 90px;
+  font-size: 75px;
   background: -webkit-linear-gradient(0deg, #ceadfc 0%, #a3bbfb 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -714,16 +720,19 @@ bokeh:nth-child(100) {
 }
 
 .lit {
+  border-color: rgba(255, 255, 255, 0);
   background: linear-gradient(to bottom, #FFF6D9, #FBC36C);
+  margin: auto;
   width: 15px;
   height: 35px;
   /*  Info on border radius. http://www.css3.info/preview/rounded-border/ */
   border-top-left-radius: 10px 35px;
-  border-top-right-radius: 10px 35px;
+  border-top-right-radius:  10px 35px;
   border-bottom-right-radius: 10px 10px;
   border-bottom-left-radius: 10px 10px;
-  top: -38px;
-  margin: auto;
+  
+  top: -34px;
+  margin: -2px;
   /*   http://www.css3.info/preview/box-shadow/ */
   box-shadow: 0 0 17px 7px rgba(251, 246, 190, 0.71);
   transform-origin: bottom;
@@ -1689,8 +1698,8 @@ bokeh:nth-child(100) {
     border-top-right-radius: 10px 35px;
     border-bottom-right-radius: 10px 10px;
     border-bottom-left-radius: 10px 10px;
-    top: -38px;
-    margin: auto;
+    top: -35px;
+    margin: -2px;
     /*   http://www.css3.info/preview/box-shadow/ */
     box-shadow: 0 0 17px 7px rgba(251, 246, 190, 0.71);
     transform-origin: bottom;
