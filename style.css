@@ -55,6 +55,15 @@ h2 {
   -webkit-text-fill-color: transparent;
 }
 
+h3{
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  top: 1vh;
+  font-size: 35px;
+  color: #fea0bb;
+  
+}
 bokeh {
   position: fixed;
   width: 2vmin;
@@ -1649,7 +1658,7 @@ bokeh:nth-child(100) {
   }
   .cake {
     position: relative;
-    top: 37vh;
+    top: 42vh;
     margin: auto;
     width: 200px;
     height: 60px;
@@ -1665,7 +1674,7 @@ bokeh:nth-child(100) {
     width: 300px;
     bottom: -95px;
     left: 50%;
-    top: 55vh;
+    top: 60vh;
     margin-left: -150px;
     border-radius: 100%;
     background: radial-gradient(ellipse closest-side at center, #08c7fe 0%, #04d7f2 71%, #02ffd0 100%);
@@ -1677,7 +1686,7 @@ bokeh:nth-child(100) {
     position: relative;
     height: 50px;
     width: 12px;
-    top: 40vh;
+    top: 45vh;
     margin: auto;
     background: linear-gradient(0deg, #b7f4a7 0%, white 100%);
     border-radius: 4px;
