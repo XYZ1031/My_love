@@ -18,7 +18,7 @@ h1 {
   position: fixed;
   text-align: center;
   width: 100%;
-  top: 30vh;
+  top: 25vh;
   font-size: 50px;
   background: -webkit-linear-gradient(0deg, #ceadfc 0%, #a3bbfb 100%);
   -webkit-background-clip: text;
@@ -32,7 +32,7 @@ h4{
   position: fixed;
   text-align: center;
   width: 100%;
-  top: 40vh;
+  top: 35vh;
   font-size: 50px;
   background: -webkit-linear-gradient(0deg, #ceadfc 0%, #a3bbfb 100%);
   -webkit-background-clip: text;
@@ -43,7 +43,7 @@ h4{
   letter-spacing: 6px;
 }
 body {
-  
+  background: black;
   cursor: crosshair;
   perspective: 1000px;
   transform-style: preserve-3d;
