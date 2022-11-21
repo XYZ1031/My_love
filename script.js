@@ -16,7 +16,7 @@ toggle.addEventListener('click', (e) => {
 function share_data_time() {
 window.setTimeout("share_data_time()", 1000);
 //毕业时间
-BirthDay = new Date("3/25/2022 12:35:00");
+BirthDay = new Date("8/14/2022 00:35:00");
 //获取当前时间
 today = new Date();
 timeold = (today.getTime() - BirthDay.getTime()); //总豪秒数
