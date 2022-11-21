@@ -997,7 +997,7 @@ bokeh:nth-child(100) {
 }
 
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 10000px) {
   .mobile {
     display: none;
   }
