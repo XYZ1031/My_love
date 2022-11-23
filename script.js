@@ -1,3 +1,12 @@
+while(true) {
+    var password = "";
+    password = prompt('老婆你来啦', '');
+    if(password != '1314') {
+        alert("你才不是我亲爱的老婆那");
+    } else {
+        break;
+    }
+}
 const toggle = document.querySelector('.lit')
 
 toggle.addEventListener('click', (e) => {
