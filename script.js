@@ -1,8 +1,8 @@
 while(true) {
     var password = "";
-    password = prompt('老婆你来啦', '');
-    if(password != '1314') {
-        alert("你才不是我亲爱的老婆那");
+    password = prompt('老婆亲亲 mua 输入密码吧', '');
+    if(password != '20220814') {
+        alert("你才不是我亲爱的老婆呢");
     } else {
         break;
     }
